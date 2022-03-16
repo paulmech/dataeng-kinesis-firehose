@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+        <title>AWS Kinesis Firehose - = Wormholes for Data Engineers =</title>
+
+        <link rel="stylesheet" href="dist/reset.css" />
+        <link rel="stylesheet" href="dist/reveal.css" />
+        <!-- <link rel="stylesheet" href="dist/theme/black.css" /> -->
+        <link rel="stylesheet" href="dist/theme/black.css" />
+
+        <!-- Theme used for syntax highlighted code -->
+        <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h3>AWS Kinesis Firehose</h3>
+                    <p class="r-stretch">
+                        <img src="images/kinesisfirehose.png" />
+                    </p>
+                    <p>A Data Engineer's Swiss Army Knife</p>
+                </section>
+
+                <section data-markdown="markdown/010_takeaways.md"></section>
+                <section data-markdown="markdown/020_references.md"></section>
+                <section data-markdown="markdown/030_why_firehose.md"></section>
+                <!-- <section data-markdown="markdown/040_why_firehose_personalities.md"></section> -->
+                <section data-auto-animate>
+                    <h2>What personality are you?</h2>
+                </section>
+                <section data-auto-animate style="background: white">
+                    <h2 style="color: black">What personality are you?</h2>
+                    <p class="r-stretch">
+                        <img src="images/16-personalities.png" />
+                    </p>
+                    <aside class="notes">But there's another reason</aside>
+                </section>
+                <section data-auto-animate data-autoslide="2000">
+                    <img src="/images/infp-lazy.png" />
+                </section>
+                <section data-auto-animate>
+                    <img src="/images/infp-lazy.png" />
+                    <h3><em>WHATEVER</em></h3>
+                    <h4>LAZY (+/-1)</h4>
+                </section>
+                <!-- <section data-markdown="markdown/050_why_firehose_my_personality.md"></section> -->
+                <section data-markdown="markdown/060_why_firehose_it_delivers.md"></section>
+                <section data-markdown="markdown/070_what_is_firehose_from_aws.md"></section>
+                <section data-markdown="markdown/072_what_is_firehose_dating_ad.md"></section>
+                <section data-markdown="markdown/080_what_is_firehose_to_me.md"></section>
+                <section data-markdown="markdown/082_what_is_firehose_inputs.md"></section>
+                <section data-markdown="markdown/084_what_is_firehose_transform.md"></section>
+
+                <section data-markdown="markdown/090_the_kinesis_family.md"></section>
+                <section data-markdown="markdown/100_kinesis_data_streams.md"></section>
+                <section data-markdown="markdown/110_kinesis_firehose.md"></section>
+                <section data-markdown="markdown/120_kinesis_data_analytics.md"></section>
+                <section data-markdown="markdown/130_why_kinesis_is_important.md"></section>
+                <!-- <section data-markdown="markdown/140_product_teams_my_experience.md"></section>
+                <section data-markdown="markdown/150_product_teams_plus_data_people.md"></section> -->
+                <section>
+                    <h2>Use Cases</h2>
+                </section>
+                <section data-markdown="markdown/160_use_case_log_aggregation.md"></section>
+                <section data-auto-animate>
+                    <h2>2 - Enterprise Integration Patterns</h2>
+                    <p class="r-stretch">
+                        <img src="./images/eip.jpg" />
+                    </p>
+                </section>
+                <section data-auto-animate>
+                    <h2>2 - Enterprise Integration Patterns</h2>
+                    <p class="r-stretch">
+                        <img src="./images/camel-in-action.png" />
+                    </p>
+                </section>
+                <section data-markdown="markdown/170_use_case_eip.md"></section>
+                <section data-markdown="markdown/180_use_case_proxy_destination.md"></section>
+                <section>
+                    <h2>Patterns</h2>
+                </section>
+                <section data-markdown="markdown/190_pattern_agent_provacateur.md"></section>
+                <section data-markdown="markdown/200_pattern_pump_dump_1.md"></section>
+                <section data-markdown="markdown/210_pattern_ship_split.md"></section>
+                <section data-markdown="markdown/220_pattern_storming_transforming.md"></section>
+                <!-- <section data-markdown="markdown/230_pattern_pump_dump_2.md"></section> -->
+                <section data-markdown="markdown/240_caveat_emptor.md"></section>
+                <section data-markdown="markdown/250_summary_firehose_highlights.md"></section>
+                <section data-autoslide="2000" data-auto-animate>
+                    <h2>Thankyou!</h2>
+                </section>
+                <section data-auto-animate>
+                    <h2>Thankyou!</h2>
+
+                    <h4 style="color: red">Any Questions?</h4>
+                </section>
+            </div>
+        </div>
+
+        <script src="dist/reveal.js"></script>
+        <script src="plugin/notes/notes.js"></script>
+        <script src="plugin/markdown/markdown.js"></script>
+        <script src="plugin/highlight/highlight.js"></script>
+        <script>
+            // More info about initialization & config:
+            // - https://revealjs.com/initialization/
+            // - https://revealjs.com/config/
+            Reveal.initialize({
+                hash: true,
+                slideNumber: "c/t",
+                // Learn about plugins: https://revealjs.com/plugins/
+                plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+            });
+        </script>
+    </body>
+</html>
